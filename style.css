@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif; */
     font: 18px normal Roboto, sans-serif;
   } 
-  
+
 h1 {
   color: navy;
 }
@@ -28,4 +28,22 @@ a:hover {
 
 a:visited {
   color: crimson;
+}
+
+.flag {
+    position: relative;
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    background: white ;
+    
+}
+
+.circle {
+    position: absolute; 
+    margin: 80px 180px;    
+    height: 240px;
+    width: 240px;
+    background: red;
+    border-radius: 50%;    
 }
