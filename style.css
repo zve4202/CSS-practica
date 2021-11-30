@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.element {
+    /* font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+    font: 18px normal Roboto, sans-serif;
+  } 
+  
 h1 {
   color: navy;
 }
