@@ -1,0 +1,23 @@
+h1 {
+  color: navy;
+}
+
+em {
+  color: orangered;
+}
+
+li {
+  font-weight: bold;
+}
+
+li > em {
+  font-size: larger;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+a:visited {
+  color: crimson;
+}
