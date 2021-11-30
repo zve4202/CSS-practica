@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  font: 18px normal Roboto, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+}
+
 .element {
-    /* font-size: 18px;
+  /* font-size: 18px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif; */
-    font: 18px normal Roboto, sans-serif;
-  } 
+  font: 18px normal Roboto, sans-serif;
+}
 
 h1 {
   color: navy;
@@ -31,19 +38,35 @@ a:visited {
 }
 
 .flag {
-    position: relative;
-    border: 2px solid black;
-    height: 400px;
-    width: 600px;
-    background: white ;
-    
+  position: relative;
+  border: 2px solid black;
+  height: 400px;
+  width: 600px;
+  background: white;
 }
 
 .circle {
-    position: absolute; 
-    margin: 80px 180px;    
-    height: 240px;
-    width: 240px;
-    background: red;
-    border-radius: 50%;    
+  position: absolute;
+  margin: 80px 180px;
+  height: 240px;
+  width: 240px;
+  background: red;
+  border-radius: 50%;
+}
+
+.list-group {
+  width: 600px;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.list-group-item {
+  margin: 0;
+  padding: 5px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
