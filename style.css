@@ -1,17 +1,26 @@
+/*
+em - от текущего шrифта
+% - от родительской элемента'
+rem - от стиля html
+vw – 1% ширины окна
+vh – 1% высоты окна
+vmin – наименьшее из (vw, vh), в IE9 обозначается vm
+vmax – наибольшее из (vw, vh)
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   background-color: #f1f1f1;
-  font: 18px normal Roboto, sans-serif;
+  font: 16px normal Roboto, sans-serif;
   color: rgba(0, 0, 0, 0.75);
 }
 
+/* # Упражнение 2. Сокращённые свойства
 .element {
-  /* font-size: 18px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif; */
   font: 18px normal Roboto, sans-serif;
-}
+} 
+*/
 
 h1 {
   color: navy;
@@ -29,12 +38,13 @@ li > em {
   font-size: larger;
 }
 
+
 a:hover {
   color: royalblue;
 }
 
 a:visited {
-  color: crimson;
+  color: rgb(22, 4, 70);
 }
 
 .flag {
@@ -69,7 +79,6 @@ a:visited {
   margin: 0;
   padding: 5px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  /* color: rgba(0, 0, 0, 0.75); */
 }
 
 .list-group-item a:active {
@@ -79,3 +88,58 @@ a:visited {
 .list-group-item a:visited {
   color: darkblue;
 }
+
+.card {  
+  width: 350px;  
+  border: 2px solid rgba(0, 0, 0, 0.125);    
+}
+
+.card-img-top {  
+  width: 100%;
+  margin: 0;
+}
+
+.card-body {    
+  padding: 20px;
+}
+
+.card-title {  
+  
+  font-size: 18px;  
+  margin: 0 0 10px 0;
+}
+
+.card-text {
+    margin: 0 0 10px 0;
+}
+
+
+.btn {
+  position: relative;  
+  display: inline-block;  
+  background: #e45d80;
+  color: white;
+  text-decoration: none; 
+  padding: 10px 15px;
+  border-radius: 4px;  
+}
+
+a > .btn {
+  color: white;
+}
+
+/* .btn:link {
+  color: white;
+} */
+.btn:hover {
+  color: red;
+  background: coral;
+}
+
+.btn:active {
+  color: black;
+}
+/* 
+.btn:visited {
+  color: rgb(16, 7, 59); 
+} */
